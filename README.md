@@ -26,9 +26,9 @@ To execute the Project:
 4. Launch Gazebo
 
         cd ~/Robotics_Project1/world
-	gazebo UdacityOffice.world --verbose
+        gazebo UdacityOffice.world --verbose
 
-5. 
+5. Observe that a welcome message is shown in the terminal during the launching
 	
 6. To close everything:
 
