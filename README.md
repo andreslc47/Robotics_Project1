@@ -10,24 +10,18 @@ To execute the Project:
         cd ~/Robotics_Project1/
         
 	
-2. Compile the Workspace by using the script provided:
+2. Create a "build" directory and compile the project
 	
-        ./compile_all
+        mkdir build
+	cd build/
+	cmake ../
+	make
  
 	
 3. Open 3 terminals.
 
-    3.1. First Terminal: 
+    
 
-        cd ~/Robotics_Project2/
-        source devel/setup.bash
-        roslaunch my_robot world.launch
-
-    3.2. Second Terminal:
-
-        cd ~/Robotics_Project2/
-        source devel/setup.bash
-        roslaunch ball_chaser ball_chaser.launch
 
 
 4. In Gazebo, move the white ball in front of the robot so that it can follow it.
