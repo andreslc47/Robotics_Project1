@@ -13,21 +13,24 @@ To execute the Project:
 2. Create a "build" directory and compile the project
 	
         mkdir build
-	cd build/
-	cmake ../
-	make
+        cd build/
+        cmake ../
+        make
  
 	
-3. Open 3 terminals.
-
-    
-
-
-
-4. In Gazebo, move the white ball in front of the robot so that it can follow it.
-
+3. Add the directory "build" to the GAZEBO_PLUGIN PATH environment variable
 	
-5. To close everything:
+        export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/<user>/Robotics_Project1/build
+	
 
-        cd ~/Robotics_Project2/
+4. Launch Gazebo
+
+        cd ~/Robotics_Project1/world
+	gazebo UdacityOffice.world --verbose
+
+5. 
+	
+6. To close everything:
+
+        cd ~/Robotics_Project1/
         ./pkill_all
