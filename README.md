@@ -1,6 +1,4 @@
 # Robotics_Project1
-
-# Robotics_Project2
 This is a demonstration of the creation of a Gazebo World and a plugin
 
 To execute the Project:
